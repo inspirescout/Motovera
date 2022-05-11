@@ -1,0 +1,295 @@
+@media (max-width: 767px) {
+  div.row.market-indicators {
+    padding-top: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+  }
+  div.container.main {
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+  .hide-on-mobile {
+    display: none;
+  }
+  .update-graph.form-inline .form-control {
+    display: inline;
+    vertical-align: middle;
+    width: auto;
+  }
+  div.form-group-container {
+    float: right;
+    margin-bottom: 3px;
+  }
+}
+@media (min-width: 768px) {
+  div.row.market-indicators {
+    padding-top: 0;
+    margin-right: 17px;
+    margin-left: 17px;
+  }
+  form.form-inline label {
+    padding-right: 10px;
+  }
+  form.form-inline input {
+    margin-right: 10px;
+  }
+}
+
+@media (max-height: 1000px) and (min-width: 1400px) {
+  h2.title {
+    margin: 0;
+    padding: 10px 0 10px 0 !important;
+  }
+}
+
+@media (min-width: 1400px) {
+  .btn.btn-responsive {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+  }
+  input.input-responsive {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+  }
+  label.label-responsive {
+    font-size: 18px;
+  }
+}
+input.small {
+  width: 6em !important;
+}
+div.container.main {
+  padding-top: 20px;
+}
+div.trade-definitions {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+table.cost-breakdown {
+  width: 90%;
+  margin: auto;
+  max-width: 600px;
+}
+p.disclaimer {
+  margin-bottom: 0;
+}
+p.disclosure {
+  padding-top: 2em;
+}
+p.narrow {
+  color: #f599ff;
+  margin: 0px;
+}
+
+small {
+  color: #f599ff;
+}
+
+.total {
+  padding-top: 5px;
+  margin-top: 5px;
+  text-align: center;
+  border-top: 2px solid #f599ff;
+}
+
+tr.minus td {
+  padding-left: 1em;
+}
+table.cost-breakdown td:nth-child(2) {
+  text-align: right;
+}
+p.subtext {
+  color: #848487;
+}
+h2.title {
+  text-align: center;
+  padding: 10px 0 5px 0;
+  margin-top: 0px;
+}
+
+.register-cta {
+  padding: 20px 0 20px 0;
+  margin: 0 auto;
+  display: block;
+  width: 305px;
+}
+div.row.center {
+  width: 140px;
+  margin: 0 auto 0 auto;
+  padding-bottom: 20px;
+}
+h3.chartTitle {
+  text-align: center;
+}
+
+.panel.full-width {
+  padding-bottom: 10px;
+}
+
+div.row.pad-top {
+  padding-top: 30px;
+}
+div.row.pad-row {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+img#powered-by-tp {
+  float: right !important;
+  margin: 10px 50px 10px 0;
+}
+
+.btn.btn-primary {
+  background-color: #f599ff;
+  border-color: #f599ff;
+}
+
+#vehicle_report_container .btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #f599ff !important;
+  border-color: #fff !important;
+  color: #fff !important;
+}
+.btn.btn-default {
+  border-color: #f599ff;
+  color: #f599ff;
+}
+.mileage-banner {
+  background-color: grey;
+  color: #fff;
+  padding: 5px 10px;
+}
+
+.form-inline .form-control {
+  display: inline;
+  vertical-align: middle;
+  width: auto;
+}
+.form-inline label,
+.form-inline span,
+.form-inline input {
+  margin-right: 4px;
+}
+#nav.affix {
+  top: 0px;
+  width: 100%;
+  z-index: 999;
+  height: 50px;
+}
+.btn#close {
+  margin-top: 5px;
+}
+.popover {
+  background-color: #f599ff;
+  color: #fff;
+  font-size: 18px;
+}
+.popover.fade.in {
+  opacity: 0.8 !important;
+}
+.popover.top > .arrow:after {
+  border-top-color: #f599ff;
+}
+i.fa.white {
+  color: #fff;
+}
+
+.address-header {
+  text-align: right;
+  padding: 5px 40px 0 0;
+}
+.closing-header h1 {
+  padding-left: 20px;
+}
+
+h4.run-report-title {
+  text-align: center;
+}
+
+.btn-print {
+  margin-right: 10px;
+}
+
+div.boxes .col-sm-3 {
+  padding-right: 2px !important;
+  padding-left: 2px !important;
+}
+
+div.row.market-indicators {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+div.row.market-indicators:before,
+div.row.market-indicators:after {
+  display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1296px) {
+  div.row.market-indicators .panel-heading {
+    min-height: 79px;
+  }
+}
+
+/*Sell now customizations*/
+div.panel-value div.panel-heading,
+div.panel-supply div.panel-heading,
+div.panel-demand div.panel-heading {
+  background-color: #666;
+}
+div.panel-sellnow div.panel-heading {
+  background-color: #f599ff;
+}
+div.panel-boxes div.panel-heading {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+div.panel-boxes div.panel-heading h2 {
+  font-size: 22px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="number"]:focus {
+  font-size: 16px !important;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="number"] {
+  font-size: 16px !important;
+}
+
+.tp-price-mileage-card {
+  height: 450px;
+}
+
+@media screen {
+  .print-only {
+    display: none;
+  }
+}
+
+@media print {
+  .print-only {
+  }
+}
+
+#report-wrapper .tp-chart-container {
+  min-height: 400px;
+}
+
+table {
+  font-size: 0.8rem;
+}
