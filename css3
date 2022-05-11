@@ -1,0 +1,12 @@
+div.home-delivery {
+  background-color: #f599ff;
+  color: #fff;
+  font-size: 1.3em;
+  padding: 5px 0;
+}
+div.home-delivery div.subtext {
+  font-size: 0.8em;
+}
+div.home-delivery a {
+  color: #fff;
+}
