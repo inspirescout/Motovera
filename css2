@@ -1,0 +1,167 @@
+.card-col {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+.card-body {
+  padding: 0.25rem;
+}
+
+.full-height {
+  height: 100%;
+}
+.sticky-offset {
+  top: 45px;
+}
+
+.bs-tooltip-right .arrow::before {
+  border-right-color: #f170ff;
+}
+.bs-tooltip-top .arrow::before {
+  border-top-color: #f170ff;
+}
+.bs-tooltip-left .arrow::before {
+  border-left-color: #f170ff;
+}
+.bs-tooltip-bottom .arrow::before {
+  border-bottom-color: #f170ff;
+}
+
+.tooltip.primary .tooltip-inner {
+  background-color: #f170ff;
+}
+
+.btn-outline-primary {
+  color: #f170ff;
+  border-color: #f170ff;
+  background-color: white;
+}
+
+a {
+  color: #f170ff;
+}
+.btn-outline-primary:hover,
+.btn-outline-primary:active {
+  color: white !important;
+  background-color: #f170ff !important;
+  border-color: #f170ff !important;
+}
+.tp-mileage-control {
+  margin-right: 5px;
+}
+
+.tp-mileage-card {
+  padding: 30px 20px 0px 20px;
+  margin: 20px;
+}
+
+.tp-demand-chart-container {
+  min-height: 275px;
+}
+
+.demand-box-footer {
+  font-size: x-small;
+}
+
+.price-mileage-header {
+  font-size: small;
+}
+
+.deductions-table-header-row {
+  border-top: black 2px solid;
+  width: 100%;
+}
+.deductions-table-header-row td {
+  padding: 0px;
+}
+
+tr.no-background {
+  background-color: white !important;
+}
+
+td.no-border {
+  border-top: none !important;
+}
+
+.table td,
+.table th {
+  padding: 0.5rem !important;
+  font-size: larger;
+}
+#empty-td {
+  padding: 0 !important;
+}
+table {
+  table-layout: fixed;
+}
+td:first-child {
+  width: 70%;
+}
+td:last-child {
+  width: 30%;
+}
+
+.btn {
+  border-radius: 0px !important;
+}
+
+@media (max-width: 767px) {
+  .boxes .card {
+    margin: 10px 2px 10px 2px;
+    min-height: initial;
+  }
+
+  .report-boxes {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .vehicle-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .vehicle-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h3.title {
+    text-align: center;
+  }
+}
+
+#vehicle_report_container {
+  overflow-x: hidden;
+}
+
+.vehicle-cell {
+  padding-right: 0;
+}
+.vehicle-cell .img-fluid {
+  max-height: 140px;
+}
+
+.vehicle-details {
+  padding-left: 20px;
+}
+
+#report-header {
+  padding-top: 10px;
+}
+
+#report-header-container {
+  overflow: initial;
+  height: initial;
+}
+
+.total-cell {
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+.total-cell h2 {
+  margin-bottom: 0px;
+}
+
+.tp-estimated {
+  font-size: smaller;
+}
